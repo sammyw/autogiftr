@@ -21,7 +21,7 @@
         <td><%= occasion.date %></td>
         <td><%= occasion.description %></td>
         <td><%= occasion.message %></td>
-        <td><%= occasion.recipient %></td>
+        <td><%= occasion.recipient.name %></td>
         <td><%= link_to 'Show', occasion %></td>
         <td><%= link_to 'Edit', edit_occasion_path(occasion) %></td>
         <td><%= link_to 'Destroy', occasion, method: :delete, data: { confirm: 'Are you sure?' } %></td>
