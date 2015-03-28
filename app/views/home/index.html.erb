@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
-					<h1>Don't get in trouble, organise your gifts now!</h1>
+					<!-- <h1>Don't get in trouble, organise your gifts now!</h1> -->
 					<%= link_to 'Get started', new_user_registration_path, class: 'btn btn-success btn-lg' %>
 				</div><!-- /col-lg-6 -->
 				<div class="col-lg-6">
@@ -12,6 +12,8 @@
 			</div><!-- /row -->
 		</div><!-- /container -->
 	</div><!-- /headerwrap -->
+
+	<%= link_to 'My account', account_path(current_user.account), class: 'btn btn-primary' %>
 		
 		<div class="row mt centered">
 			<div class="col-lg-4">
