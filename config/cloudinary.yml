@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dj83bx8bi
+  api_key: '813466777519839'
+  api_secret: AnUfpSqPiAj6e23-KBKesTMHZVI
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dj83bx8bi
+  api_key: '813466777519839'
+  api_secret: AnUfpSqPiAj6e23-KBKesTMHZVI
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dj83bx8bi
+  api_key: '813466777519839'
+  api_secret: AnUfpSqPiAj6e23-KBKesTMHZVI
+  enhance_image_tag: true
+  static_image_support: false
